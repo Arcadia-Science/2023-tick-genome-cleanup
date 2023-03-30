@@ -4,9 +4,9 @@ This repository records commands used to clean up the tick genome assembly submi
 
 The genome was first rejected because the genome size is not within the expected range.  
 This was due to the fact that the genome was not a haploid assembly.
-To fix this issue, we ran [purge_dups](./01_cleanup_genome_for_ncbi_deposition.ipynb) on the assembly.
+To fix this issue, we ran [purge_dups](./00_purge_duplicates_from_assembly.md) on the assembly.
 The assembly was then rejected for having small (<200 bp) present.
-To fix this issue, we [removed short contigs](./00_purge_duplicates_from_assembly.md).
+To fix this issue, we [removed short contigs](./01_cleanup_genome_for_ncbi_deposition.ipynb).
 
 The raw sequencing reads are available on the SRA under BioProject [PRJNA932813](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA932813).
 The unphased assembly and the output of purge_dups (`purged` and `haplotigs`) are available on [Zenodo](https://doi.org/10.5281/zenodo.7747101).
