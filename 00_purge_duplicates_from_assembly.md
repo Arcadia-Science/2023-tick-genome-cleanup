@@ -1,5 +1,5 @@
 This file records the commands we ran to "purge duplicates" from our unphased assembly
-We used purg_dups v1.2.6.
+We used purg_dups v1.2.6 and minimap2 v2.17-r941.
 ```
 git clone https://github.com/dfguan/purge_dups.git
 cd purge_dups/src && make
